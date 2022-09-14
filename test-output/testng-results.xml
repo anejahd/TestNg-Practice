@@ -1,57 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-14T11:30:19 EDT" name="Loan Department" finished-at="2022-09-14T11:30:19 EDT" duration-ms="341">
+  <suite started-at="2022-09-14T16:59:34 EDT" name="Loan Department" finished-at="2022-09-14T16:59:34 EDT" duration-ms="61">
     <groups>
+      <group name="Smoke">
+        <method signature="day2.New()[pri:0, instance:testPackage.day2@672872e1]" name="New" class="testPackage.day2"/>
+        <method signature="day3.Weblogin()[pri:0, instance:testPackage.day3@3f56875e]" name="Weblogin" class="testPackage.day3"/>
+        <method signature="day4.NewCar()[pri:0, instance:testPackage.day4@32910148]" name="NewCar" class="testPackage.day4"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-09-14T11:30:19 EDT" name="Personal loan" finished-at="2022-09-14T11:30:19 EDT" duration-ms="107">
-      <class name="testPackage.BasicTestNG">
-        <test-method signature="Demo()[pri:0, instance:testPackage.BasicTestNG@10d68fcd]" started-at="2022-09-14T11:30:19 EDT" name="Demo" finished-at="2022-09-14T11:30:19 EDT" duration-ms="13" status="PASS">
+    <test started-at="2022-09-14T16:59:34 EDT" name="Regression" finished-at="2022-09-14T16:59:34 EDT" duration-ms="61">
+      <class name="testPackage.day4">
+        <test-method signature="NewCar()[pri:0, instance:testPackage.day4@32910148]" started-at="2022-09-14T16:59:34 EDT" name="NewCar" finished-at="2022-09-14T16:59:34 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method signature="SecondTest()[pri:0, instance:testPackage.BasicTestNG@10d68fcd]" started-at="2022-09-14T11:30:19 EDT" name="SecondTest" finished-at="2022-09-14T11:30:19 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SecondTest -->
-      </class> <!-- testPackage.BasicTestNG -->
+        </test-method> <!-- NewCar -->
+      </class> <!-- testPackage.day4 -->
       <class name="testPackage.day2">
-        <test-method signature="New()[pri:0, instance:testPackage.day2@117e949d]" started-at="2022-09-14T11:30:19 EDT" name="New" finished-at="2022-09-14T11:30:19 EDT" duration-ms="3" status="PASS">
+        <test-method signature="New()[pri:0, instance:testPackage.day2@672872e1]" started-at="2022-09-14T16:59:34 EDT" name="New" finished-at="2022-09-14T16:59:34 EDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- New -->
       </class> <!-- testPackage.day2 -->
       <class name="testPackage.day3">
-        <test-method signature="LoginAPIcarloan()[pri:0, instance:testPackage.day3@6db9f5a4]" started-at="2022-09-14T11:30:19 EDT" name="LoginAPIcarloan" finished-at="2022-09-14T11:30:19 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPIcarloan -->
-        <test-method signature="MobileLogin()[pri:0, instance:testPackage.day3@6db9f5a4]" started-at="2022-09-14T11:30:19 EDT" name="MobileLogin" finished-at="2022-09-14T11:30:19 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLogin -->
-        <test-method signature="Weblogin()[pri:0, instance:testPackage.day3@6db9f5a4]" started-at="2022-09-14T11:30:19 EDT" name="Weblogin" finished-at="2022-09-14T11:30:19 EDT" duration-ms="2" status="PASS">
+        <test-method signature="Weblogin()[pri:0, instance:testPackage.day3@3f56875e]" started-at="2022-09-14T16:59:34 EDT" name="Weblogin" finished-at="2022-09-14T16:59:34 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Weblogin -->
       </class> <!-- testPackage.day3 -->
-    </test> <!-- Personal loan -->
-    <test started-at="2022-09-14T11:30:19 EDT" name="Car loan" finished-at="2022-09-14T11:30:19 EDT" duration-ms="17">
-      <class name="testPackage.day3">
-        <test-method signature="LoginAPIcarloan()[pri:0, instance:testPackage.day3@568ff82]" started-at="2022-09-14T11:30:19 EDT" name="LoginAPIcarloan" finished-at="2022-09-14T11:30:19 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPIcarloan -->
-        <test-method signature="MobileLogin()[pri:0, instance:testPackage.day3@568ff82]" started-at="2022-09-14T11:30:19 EDT" name="MobileLogin" finished-at="2022-09-14T11:30:19 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLogin -->
-        <test-method signature="Weblogin()[pri:0, instance:testPackage.day3@568ff82]" started-at="2022-09-14T11:30:19 EDT" name="Weblogin" finished-at="2022-09-14T11:30:19 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Weblogin -->
-      </class> <!-- testPackage.day3 -->
-    </test> <!-- Car loan -->
+    </test> <!-- Regression -->
   </suite> <!-- Loan Department -->
 </testng-results>

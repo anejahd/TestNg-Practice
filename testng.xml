@@ -3,7 +3,12 @@
 <suite name="Loan Department">
   <test thread-count="5" name="Personal loan">
     <classes>
-      <class name ="testPackage.BasicTestNG"/>
+      <class name ="testPackage.BasicTestNG">
+      	<methods>
+      		<include name = "Demo" />
+      	</methods>
+      
+      </class>
       <class name ="testPackage.day2"/>
       <class name = "testPackage.day3" />
       <class name = "testPackage.day4" />
@@ -12,7 +17,11 @@
   </test> <!-- Test -->
   <test name = "Car loan">
   		<classes>
-  			<class name = "testPackage.day3" />
+  			<class name = "testPackage.day3" >
+  			<methods>
+  				<exclude name = "Mobile.*" /> 
+  			</methods>
+  			</class>
   		</classes>
   </test>
 </suite> <!-- Suite -->

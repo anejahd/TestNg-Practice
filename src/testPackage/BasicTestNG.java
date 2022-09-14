@@ -9,5 +9,10 @@ public class BasicTestNG {
 	public void Demo() {
 		System.out.print("Hello"); //automation
 	}
+	
+	@Test
+	public void SecondTest() {
+		System.out.println("bye");
+	}
    
 }
